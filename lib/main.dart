@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       theme: ThemeData(
         //brightness: permite establecer tema claro u oscuro
-        brightness: Brightness.dark,
+        //brightness: Brightness.dark,
         //useMaterial3: establece patron de diseño en Material3
         useMaterial3: true,
         //scaffoldBackgroundColor: establece el color de los background de todos los scaffold

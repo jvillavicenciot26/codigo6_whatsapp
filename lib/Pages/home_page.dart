@@ -1,3 +1,5 @@
+import 'package:codigo6_whatsapp/Pages/chat_page.dart';
+import 'package:codigo6_whatsapp/Pages/states_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -113,18 +115,20 @@ class _HomePageState extends State<HomePage>
               color: Colors.black,
             ),
           ),
-          Text(
-            "Chats",
-            style: TextStyle(
-              color: Colors.black,
-            ),
-          ),
-          Text(
-            "Estados",
-            style: TextStyle(
-              color: Colors.black,
-            ),
-          ),
+          // Text(
+          //   "Chats",
+          //   style: TextStyle(
+          //     color: Colors.black,
+          //   ),
+          // ),
+          ChatPage(),
+          // Text(
+          //   "Estados",
+          //   style: TextStyle(
+          //     color: Colors.black,
+          //   ),
+          // ),
+          StatesPage(),
           Text(
             "Llamadas",
             style: TextStyle(
